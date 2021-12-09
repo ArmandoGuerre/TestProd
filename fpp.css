@@ -1,0 +1,118 @@
+*{margin:0;
+}
+body{background-color: black;}
+#wrapper{background-color: lightgray;
+    height: auto;}
+h1{color:white;
+    margin-top: 1%;
+    font-size:200%;
+}
+nav{height: 80px;
+    width: 100%;
+    background-color: black;
+    font-weight:bold;
+    margin-top:0px;
+}
+nav b{ text-decoration: none;
+}	
+.menuIcon{height:40px;
+          width:60px;
+          display: flex;
+          flex-direction:column;
+          justify-content: space-evenly;
+          align-items: bottom;
+          position: absolute;
+          right: 0;
+          cursor: pointer;
+          margin-top:-25px;
+        
+}
+.bar{height: 15%;
+     width: 90%;
+     background-color: white;
+}
+.menu{position: fixed;
+    top: 70px;
+    right: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: grey;
+    min-height: 150px;
+}
+header{
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+.pan{ height: 600px;
+    width: 800px;
+    background-image: url(pan.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    border:5px solid black;
+    
+}
+footer{ text-align: center; 
+    font-style:italic; 
+    font-family:Georgia, "Times New Roman", serif;
+    font-size: 75%;
+    color:black;
+    background-color:lightgray;
+   }
+main{
+    border: 5px solid black;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:15px;
+
+}
+.extra{
+    color:black;
+    font-size:350%;
+}
+p{ text-align: center; 
+    font-style: bold; 
+    font-family:Georgia, "Times New Roman", serif;
+    font-size: 155%;
+    padding:.5em;
+}
+h3{ text-align: center; 
+    font-style: bold; 
+    font-family:Georgia, "Times New Roman", serif;
+    font-size: 155%;
+}
+address{
+    text-align: center; 
+    font-style: bold; 
+    font-family:Georgia, "Times New Roman", serif;
+    font-size: 145%;
+    padding:.5em;
+}
+table{border: 2px solid #3399CC;
+    border-collapse: collapse;
+}
+td, th{padding: 0.5em;
+     border: 2px solid #3399CC;
+}
+td{text-align: center;
+}
+.text{text-align: left;
+}
+tr:nth-of-type(odd){background-color: #F5FAFC;
+}
+form{display: flex;
+   flex-flow: column nowrap;
+}
+input, textarea{margin-bottom: .5em;
+}
+#content { padding: 1px 20px 20px 30px;  
+    background-color:#ffffff;    
+}
+#content ul {list-style-position: inside;
+}
